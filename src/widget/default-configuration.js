@@ -13,6 +13,6 @@ export const defaultConfiguration = {
     displayMessageTime: true,
     mainColor: '#1f8ceb',
     alwaysUseFloatingButton: false,
-    desktopHeight: 450,
+    desktopHeight: 450, 
     desktopWidth: 370
 };
