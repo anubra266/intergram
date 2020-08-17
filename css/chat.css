@@ -123,7 +123,7 @@ html, body {
 
 input.textarea {
     position: fixed;
-    bottom: 14px;
+    bottom: 0;
     left: 0;
     right: 0;
     width: 95%;
