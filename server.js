@@ -23,7 +23,7 @@ app.post("/hook", function (req, res) {
 			console.log("/start chatId " + chatId);
 			sendTelegramMessage(
 				chatId,
-				"*Welcome to Intergram* \n" +
+				"*Welcome to Anubra Support Chat* \n" +
 					"Your unique chat id is `" +
 					chatId +
 					"`\n" +
