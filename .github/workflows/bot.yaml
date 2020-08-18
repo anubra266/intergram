@@ -1,2 +1,7 @@
-env:
-  TELEGRAM_TOKEN : 1384333355:AAHH2AXOMlOMGaNBKQ7JZ3azFEwhPRX61EM
+steps:
+  - name: Telegram Token
+    with: # Set the secret as an input
+      super_secret: ${{ secrets.TELEGRAM_TOKEN }}
+    env: # Or as an environment variable
+      super_secret: ${{ secrets.TELEGRAM_TOKEN }}
+      
